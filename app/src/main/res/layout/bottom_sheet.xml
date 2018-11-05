@@ -13,7 +13,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="horizontal"
         android:layout_gravity="center_vertical"
         android:weightSum="3">
@@ -45,7 +45,7 @@
     <!--
       TODO: Replace the below TextView with a ListView containing VisitingCards in that GeoFenced Location.
     -->
-
+    <!--
     <TextView
         android:id="@+id/list_item"
         android:layout_width="match_parent"
@@ -57,5 +57,13 @@
         android:textAlignment="center"
         android:textColor="#fff"
         android:textSize="20sp" />
+    -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rcl_recycler_view"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+
+    </android.support.v7.widget.RecyclerView>
 </LinearLayout>

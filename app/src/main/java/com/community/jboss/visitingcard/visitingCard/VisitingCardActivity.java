@@ -1,4 +1,4 @@
-package com.community.jboss.visitingcard.VisitingCard;
+package com.community.jboss.visitingcard.visitingCard;
 
 import android.content.Intent;
 import android.support.design.widget.FloatingActionButton;
@@ -10,8 +10,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.community.jboss.visitingcard.LoginActivity;
-import com.community.jboss.visitingcard.Maps.MapsActivity;
+import com.community.jboss.visitingcard.maps.MapsActivity;
 import com.community.jboss.visitingcard.R;
 import com.community.jboss.visitingcard.SettingsActivity;
 
